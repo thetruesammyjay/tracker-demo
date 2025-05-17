@@ -1,0 +1,21 @@
+/* Wormhole Connect styles */
+.wormhole-connect {
+  --wc-background: #ffffff;
+  --wc-primary: #182122;
+  --wc-secondary: #f4f4f6;
+  --wc-accent: #534fff;
+  --wc-error: #ff4f4f;
+  --wc-success: #ccf888;
+  --wc-text-primary: #182122;
+  --wc-text-secondary: #534fff;
+  --wc-text-tertiary: #6b7280;
+  --wc-border-radius: 10px;
+  --wc-font-family: 'Prompt', sans-serif;
+}
+
+.wormhole-connect .MuiButton-contained {
+  background-color: var(--wc-primary) !important;
+  color: white !important;
+  border-radius: var(--wc-border-radius) !important;
+  font-family: var(--wc-font-family) !important;
+}
